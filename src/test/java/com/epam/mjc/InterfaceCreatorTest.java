@@ -58,7 +58,7 @@ public class InterfaceCreatorTest {
 
                 Arguments.of("FromListWithAllIncorrectStrings",
                         new ArrayList<>(Arrays. asList("his is a good way to learn Java Functional Interfaces.",
-                                                       "Hello world Java.",
+                                                       "hello world Java.",
                                                        "MJC is a great school")),
                         new ArrayList<>(Arrays. asList()))
         );
