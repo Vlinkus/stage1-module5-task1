@@ -37,7 +37,7 @@ public class InterfaceCreator {
         return () -> values.stream()
                             .filter(str -> Character.isUpperCase(str.charAt(0)) &&
                                str.charAt(str.length() - 1) == '.' &&
-                               str.split(" ").length >= 3)
+                               str.split(" ").length > 3)
                       .collect(Collectors.toList());
     }
 
